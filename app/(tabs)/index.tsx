@@ -8,7 +8,9 @@ import { useState } from 'react';
 const PlaceholderImage = require('@/assets/images/background-image.png');
 
 export default function Index() {
+
   const [selectedImage, setSelectedImage] = useState<string | undefined>(undefined); 
+
   const pickImageAsync = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ['images'],
