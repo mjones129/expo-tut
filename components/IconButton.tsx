@@ -17,9 +17,9 @@ export default function IconButton({icon, label, onPress}: Props) {
 }
 
 const styles = StyleSheet.create({
-    IconButton: {
+    iconButton: {
         justifyContent: 'center',
-        alignContent: 'center'
+        alignItems: 'center'
     },
     iconButtonLabel: {
         color: '#fff',
